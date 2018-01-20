@@ -1,0 +1,6 @@
+
+package.cpath="./?.so;。/?.dll"
+require "myclibs"
+
+print(myclibs.sum(12, 24, -10))
+print(myclibs.sub(12, 24, -10))
