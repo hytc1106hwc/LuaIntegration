@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cslibs", "cslibs\cslibs.csp
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lua", "Lua515\Lua.vcxproj", "{250B3C67-0961-4453-8B28-75D8BC1AB590}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tuple", "tuple\tuple.vcxproj", "{7E9D7566-27E0-433C-9820-1219260E51B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -244,6 +246,26 @@ Global
 		{250B3C67-0961-4453-8B28-75D8BC1AB590}.Template|Win32.Build.0 = Release|Win32
 		{250B3C67-0961-4453-8B28-75D8BC1AB590}.Template|x64.ActiveCfg = Release|x64
 		{250B3C67-0961-4453-8B28-75D8BC1AB590}.Template|x64.Build.0 = Release|x64
+		{7E9D7566-27E0-433C-9820-1219260E51B3}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{7E9D7566-27E0-433C-9820-1219260E51B3}.Debug|ARM.ActiveCfg = Debug|Win32
+		{7E9D7566-27E0-433C-9820-1219260E51B3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7E9D7566-27E0-433C-9820-1219260E51B3}.Debug|Win32.Build.0 = Debug|Win32
+		{7E9D7566-27E0-433C-9820-1219260E51B3}.Debug|x64.ActiveCfg = Debug|x64
+		{7E9D7566-27E0-433C-9820-1219260E51B3}.Debug|x64.Build.0 = Debug|x64
+		{7E9D7566-27E0-433C-9820-1219260E51B3}.Release|Any CPU.ActiveCfg = Release|Win32
+		{7E9D7566-27E0-433C-9820-1219260E51B3}.Release|ARM.ActiveCfg = Release|Win32
+		{7E9D7566-27E0-433C-9820-1219260E51B3}.Release|Win32.ActiveCfg = Release|Win32
+		{7E9D7566-27E0-433C-9820-1219260E51B3}.Release|Win32.Build.0 = Release|Win32
+		{7E9D7566-27E0-433C-9820-1219260E51B3}.Release|x64.ActiveCfg = Release|x64
+		{7E9D7566-27E0-433C-9820-1219260E51B3}.Release|x64.Build.0 = Release|x64
+		{7E9D7566-27E0-433C-9820-1219260E51B3}.Template|Any CPU.ActiveCfg = Release|x64
+		{7E9D7566-27E0-433C-9820-1219260E51B3}.Template|Any CPU.Build.0 = Release|x64
+		{7E9D7566-27E0-433C-9820-1219260E51B3}.Template|ARM.ActiveCfg = Release|x64
+		{7E9D7566-27E0-433C-9820-1219260E51B3}.Template|ARM.Build.0 = Release|x64
+		{7E9D7566-27E0-433C-9820-1219260E51B3}.Template|Win32.ActiveCfg = Release|Win32
+		{7E9D7566-27E0-433C-9820-1219260E51B3}.Template|Win32.Build.0 = Release|Win32
+		{7E9D7566-27E0-433C-9820-1219260E51B3}.Template|x64.ActiveCfg = Release|x64
+		{7E9D7566-27E0-433C-9820-1219260E51B3}.Template|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

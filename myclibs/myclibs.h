@@ -2,7 +2,6 @@
 
 #include <stdarg.h>
 #include <stddef.h>
-#include <stdarg.h>
 #include <stdlib.h>
 #include <string.h>
 #include <string>
@@ -32,7 +31,8 @@ MYCLIBS_API int luaopen_myclibs(lua_State *L);
 #define myclibs_lock(L)		((void) 0)
 #define myclibs_unlock(L)   ((void) 0)
 
-#define TRANS_KEY ((char)'T')
+#define TRANS_KEY ((char)'t')
 
 static int myclibs_settrans_upvalues(lua_State *L);
+static int ref = 0;
 
